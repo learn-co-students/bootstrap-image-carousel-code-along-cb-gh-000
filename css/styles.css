@@ -1,0 +1,70 @@
+img, video, audio, iframe, table, form {
+  width: 100%; /* IE */
+  max-width: 100%; /* FF, Safari, Chrome */
+}
+
+img {
+	padding: 10px;
+}
+
+/* Layout Styles */
+
+.row {
+	margin-bottom: 20px;
+}
+
+/* Carousel Styles */
+
+#carousel-example-generic .item img {
+	height: auto;
+}
+
+.carousel-caption {
+	display: none;
+}
+
+@media only screen and (min-width: 768px) {
+	#carousel-example-generic .item img {
+		height: 384px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	#carousel-example-generic .item img {
+		height: 496px;
+	}
+	.carousel-caption p {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	#carousel-example-generic .item img {
+		height: 600px;
+	}
+	.carousel-caption {
+		display: block;
+	}
+}
+
+#imagerow, #testrow {
+	border: 1px dotted #ccc;
+	background: #eee;
+}
+
+#testrow {
+	margin-top: 10px;
+}
+
+#companynews {
+	border: 1px dotted #ccc;
+	background: #eee;
+}
+
+#companynews p {
+	padding-bottom: 10px;
+}
+
+.col-sm-4  {
+	border-left: 1px dotted #ccc;
+}
